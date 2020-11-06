@@ -2,8 +2,8 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 const App: React.FC = () => (
-  <View>
-    <Text>Hello Template</Text>
+  <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <Text>Hello Template!!!</Text>
   </View>
 );
 
